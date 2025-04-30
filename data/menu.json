@@ -1,0 +1,243 @@
+{
+  "Appetisers": {
+    "id": 0,
+    "dishes": [
+      {
+        "id": "000",
+        "name": "Nazakat Chicken",
+        "price": "4.95",
+        "description": "Pieces of chicken cooked in a mustard sauce with special herbs"
+      },
+      {
+        "id": "001",
+        "name": "Hariyali Kebab",
+        "price": "4.95",
+        "description": "Chicken pieces marinated in green paste of spinach & fresh coriander. Grilled in the clay oven"
+      },
+      {
+        "id": "002",
+        "name": "Lamb Ribs",
+        "price": "7.95",
+        "description": "A long piece of bone with a piece of meat in the edge which has a distinctive taste, usually very tender, different from any other meat"
+      }
+    ]
+  },
+  "Signature Dishes": {
+    "id": 1,
+    "dishes": [
+      {
+        "id": "100",
+        "name": "Nilligiri",
+        "price": "8.95",
+        "description": "Chicken or lamb marinated in coriander & mint to make a succulent dish"
+      },
+      {
+        "id": "101",
+        "name": "Haryali Chicken Masala",
+        "price": "10.95",
+        "description": "Green chicken marinated in spinach, mint & coriander puree served in a creamy sauce"
+      },
+      {
+        "id": "102",
+        "name": "Chicken Jafrani",
+        "price": "14.95",
+        "description": "A medium dish in a thick sauce. Strips of chicken with a very tangy flavour, slightly sour, garnished with capsicum & onions. Served with a pulao rice"
+      }
+    ]
+  },
+  "Tandoori Specials": {
+    "id": 2,
+    "dishes": [
+      {
+        "id": "200",
+        "name": "Hariyali Chicken",
+        "price": "8.95",
+        "description": "Pieces of chicken marinated in fresh green spinach paste, fenugreek & chefs secret spices then skewered in tandoori"
+      },
+      {
+        "id": "201",
+        "name": "Tandoori Chicken",
+        "price": "8.95",
+        "description": "Tender chicken marinated in yogurt with special spices. Barbecued on charcoal in the tandoori"
+      },
+      {
+        "id": "202",
+        "name": "Shashlik",
+        "price": "9.95",
+        "description": "Marinated pieces of meat with vegetables, grilled in the tandoori oven"
+      }
+    ]
+  },
+  "Akhni": {
+    "id": 3,
+    "dishes": [
+      {
+        "id": "300",
+        "name": "Akhni",
+        "price": "8.95",
+        "description": "Akhni is a mixed rice dish from Bangladesh. It is made over a low fire with aromatic spices, basmati rice & Indian herbs with meat or vegetables. Served with a vegetable curry"
+      }
+    ]
+  },
+  "Side Vegetable Dish": {
+    "id": 4,
+    "dishes": [
+      {
+        "id": "400",
+        "name": "Sag Poneer",
+        "price": "4.95",
+        "description": "Spinach & cheese"
+      },
+      {
+        "id": "401",
+        "name": "Dhingi Palak",
+        "price": "4.50",
+        "description": "Spinach & mushroom"
+      },
+      {
+        "id": "402",
+        "name": "Aubergine",
+        "price": "4.50",
+        "description": "Spiced aubergine cooked to perfection"
+      }
+    ]
+  },
+  "Classics": {
+    "id": 5,
+    "dishes": [
+      {
+        "id": "500",
+        "name": "Curry",
+        "price": "7.50",
+        "description": "All these dishes are cooked with fresh curry leaves, coriander and ground spices"
+      },
+      {
+        "id": "501",
+        "name": "Madras",
+        "price": "7.50",
+        "description": "All these dishes are cooked with fresh curry leaves, coriander and ground spices"
+      },
+      {
+        "id": "502",
+        "name": "Vindaloo",
+        "price": "7.50",
+        "description": "All these dishes are cooked with fresh curry leaves, coriander and ground spices"
+      }
+    ]
+  },
+  "Nan Breads": {
+    "id": 6,
+    "dishes": [
+      {
+        "id": "600",
+        "name": "Secret Nan",
+        "price": "3.95",
+        "description": "A special house-made naan with secret ingredients"
+      },
+      {
+        "id": "601",
+        "name": "Peshwari Nan",
+        "price": "3.50",
+        "description": "Naan bread stuffed with sweet coconut and nuts"
+      },
+      {
+        "id": "602",
+        "name": "Garlic Nan",
+        "price": "3.50",
+        "description": "Naan bread topped with fresh garlic"
+      }
+    ]
+  },
+  "Pappadoms": {
+    "id": 7,
+    "dishes": [
+      {
+        "id": "700",
+        "name": "Pappadoms",
+        "price": "0.95",
+        "description": "Crispy lentil wafers"
+      },
+      {
+        "id": "701",
+        "name": "Spicy Pappadoms",
+        "price": "0.95",
+        "description": "Spicy crispy lentil wafers"
+      },
+      {
+        "id": "702",
+        "name": "Onion Salad",
+        "price": "0.95",
+        "description": "Freshly chopped onions with spices"
+      }
+    ]
+  },
+  "Rice Dishes": {
+    "id": 8,
+    "dishes": [
+      {
+        "id": "800",
+        "name": "Boiled Rice",
+        "price": "2.50",
+        "description": "Plain basmati rice"
+      },
+      {
+        "id": "801",
+        "name": "Pulao Rice",
+        "price": "2.75",
+        "description": "Fragrant rice cooked with mild spices"
+      },
+      {
+        "id": "802",
+        "name": "Mushroom Rice",
+        "price": "3.25",
+        "description": "Pulao rice cooked with fresh mushrooms"
+      }
+    ]
+  },
+  "Desserts": {
+    "id": 9,
+    "dishes": [
+      {
+        "id": "900",
+        "name": "Kulfi",
+        "price": "2.95",
+        "description": "Traditional Indian ice cream made from thickened milk, available in mango or pistachio"
+      },
+      {
+        "id": "901",
+        "name": "Gulab Jamun",
+        "price": "2.95",
+        "description": "Sweet dumplings soaked in rose-scented syrup"
+      },
+      {
+        "id": "902",
+        "name": "Vanilla Ice Cream",
+        "price": "2.50",
+        "description": "Classic vanilla ice cream served chilled"
+      }
+    ]
+  },
+  "Drinks": {
+    "id": 10,
+    "dishes": [
+      {
+        "id": "1000",
+        "name": "Coca-Cola",
+        "price": "1.95",
+        "description": "330ml can"
+      },
+      {
+        "id": "1001",
+        "name": "Still Water",
+        "price": "1.50",
+        "description": "500ml bottle"
+      },
+      {
+        "id": "1002",
+        "name": "Sparkling Water",
+        "price": "1.50",
+        "description": "500ml bottle"
+      }
+    ]
+  }
+}

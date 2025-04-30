@@ -1,0 +1,30 @@
+{
+  "name": "api-bootstrap",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/www",
+    "test": "mocha -r ts-node/register  \"./test/**/*.spec.ts\" --exit ",
+    "dev": "nodemon --watch src --ext ts --exec ts-node app.ts"
+  },
+  "dependencies": {
+    "chai-http": "^4.4.0",
+    "express": "^4.21.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "tsx": "^4.19.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.20",
+    "@types/express": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "@types/uuid": "^10.0.0",
+    "chai": "^4.5.0",
+    "mocha": "^11.1.0",
+    "nodemon": "3.1.10",
+    "supertest": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
