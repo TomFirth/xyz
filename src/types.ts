@@ -20,5 +20,3 @@ export type Category = {
   id: number;
   dishes: Dish[];
 };
-
-export type Menu = Record<string, Category>;

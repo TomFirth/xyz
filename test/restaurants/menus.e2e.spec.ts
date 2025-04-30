@@ -7,22 +7,23 @@ chai.use(chaiHttp).should()
 
 describe('Menus API', () => {
     it('should return an correct response', async () => {
-        const dishId = 12345
-        const res = await chai.request(app).get(`/menus/${dishId}`);
+        const dishId = 401
+        const res = await chai.request(app).get(`/menus/dish/${dishId}`);
         expect(res.status).to.equal(200);
-        expect(res.body).to.be.eql({ title: `Dish id is ${dishId}` });
+        expect(res.body).to.be.eql({
+            "name": "Dhingi Palak",
+            "price": "4.50",
+            "description": "Spinach & mushroom"
+          });
     });
 
-    //TODO fis this test
     it('should create dish', async () => {
-        const res =
-            await chai.request(app).post(`/menus`)
+        const res = await chai.request(app).post(`/menus/create`)
             .send({
-            name: "chicken",
-            description: "Chicken dish",
-            price: 9.95
-        }
-    )
+                name: "chicken",
+                description: "Chicken dish",
+                price: 9.95
+            })
         expect(res.status).to.equal(202);
     });
 });

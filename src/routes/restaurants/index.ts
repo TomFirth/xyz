@@ -8,7 +8,6 @@ router.get('/list', function(req, res, next) {
 
 router.get('/:id', function(req, res, next) {
   const {id} = req.params;
-  // check if id is number
   console.log(id);
   res.status(200).json ({ title: `Restaurants id is ${id}` });
 });
